@@ -1,0 +1,53 @@
+body{
+    background-color: #FFFFFF;
+}
+
+p{
+    font-family: Arial, Helvetica;
+    font-size: 14px;
+}
+fieldset {
+    border: 1px solid #DDDDDD;
+    font-size: 14px;
+    font-family: Arial, Helvetica;
+    padding: 1em 2em;
+}
+ 
+legend {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    padding: 0.5em 1em;
+}
+#bawah{
+    text-align: right;
+    text-size-adjust: bold;
+}
+#atas{
+    text-align: right;
+    text-size-adjust: bold;
+}
+hr{
+    border-width: thick;
+}
+
+p{
+    text-align: justify;
+    text-indent: 0.5cm;
+    padding: 10px;
+    line-height: 1cm;
+    color: black;
+    word-spacing: 2px;
+    font-size: 14pt;
+}
+
+fieldset, legend,img{/* grouping */
+    border: magenta 5px outset;
+    padding: 10px;
+    background-color: #F5EAEA;
+    color: #F16767;
+}
+
+*{/* universal */
+    font-family: cambria, calibri,consolas;
+}
+
